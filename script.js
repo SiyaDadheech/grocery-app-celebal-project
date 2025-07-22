@@ -5,6 +5,7 @@ const groceryItems = [
   { name: "Carrots", category: "Vegetables", price: 1.2, available: true },
   { name: "Cheese", category: "Dairy", price: 2.5, available: true },
   { name: "Bananas", category: "Fruits", price: 1.1, available: true },
+  { name:"Mangoes", category: "Fruits", price: 1.8, available: true },
 ];
 
 const listContainer = document.getElementById("groceryList");
