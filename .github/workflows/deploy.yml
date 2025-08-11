@@ -20,4 +20,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"  # your app folder, '/' if root
+          api_location: "api"  # your API folder, 'api' if in root
+          output_location: " "  # your build output folder, 'dist' if in
+         
 
