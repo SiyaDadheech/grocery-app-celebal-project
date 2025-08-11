@@ -35,5 +35,9 @@ function renderItems(category = "all") {
 filter.addEventListener("change", () => {
   renderItems(filter.value);
 });
+fetch("/api/grocery")
+  .then(res => res.json())
+  .then(data => console.log(data.message));
+
 
 renderItems();
